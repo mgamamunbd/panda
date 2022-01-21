@@ -14,6 +14,13 @@ body {
   background-color: #fceae8;
   border-radius: 10px;
 }
+.border-extra {
+  border: 1px solid rgb(226, 217, 217);
+}
+
+.border-extra:hover {
+  border: 1px solid #ff136f;
+}
 
 .buy-now {
   background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
