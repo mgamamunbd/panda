@@ -205,41 +205,26 @@
           <div class="row">
             <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 py-2">
               <div
-                class="d-flex justify-content-between align-items-center cat-1 py-1"
+                class="d-flex justify-content-between align-items-center cat-1"
               >
                 <h1>Watch</h1>
-                <img
-                  class="picture"
-                  src="images/categories/watch.png"
-                  alt=""
-                  width="100px"
-                />
+                <img src="images/categories/watch.png" alt="" />
               </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 py-2">
               <div
-                class="d-flex justify-content-between align-items-center cat-2 py-1"
+                class="d-flex justify-content-between align-items-center cat-2"
               >
                 <h1>Bag</h1>
-                <img
-                  class="picture"
-                  src="images/categories/bag.png"
-                  alt=""
-                  width="100px"
-                />
+                <img src="images/categories/bag.png" alt="" />
               </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 py-2">
               <div
-                class="d-flex justify-content-between align-items-center cat-3 py-1"
+                class="d-flex justify-content-between align-items-center cat-3"
               >
                 <h1>shoes</h1>
-                <img
-                  class="picture"
-                  src="images/categories/shoes.png"
-                  alt=""
-                  width="100px"
-                />
+                <img src="images/categories/shoes.png" alt="" />
               </div>
             </div>
           </div>
@@ -249,7 +234,7 @@
       <!-- Shoes section start from here -->
       <section>
         <div class="container margin-extra">
-          <h1 id="shoes">Shoes</h1>
+          <h1 class="fw-bold" id="shoes">Shoes</h1>
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card h-100">
@@ -312,7 +297,7 @@
       <!-- Backpack section start from here -->
       <section>
         <div class="container margin-extra">
-          <h1 id="backpack">Backpack</h1>
+          <h1 class="fw-bold" id="backpack">Backpack</h1>
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card h-100">
@@ -382,15 +367,18 @@
           id="subscribe"
         >
           <div>
-            <h3 id="stayintuch">LET'S STAY IN TOUCH</h3>
+            <h3 class="fw-bold" id="stayintuch">LET'S STAY IN TOUCH</h3>
             <h6 class="pb-3">Get updates on sales, specials and more</h6>
             <input class="form-control pb-3" type="text" /><br />
             <button class="buy-now">SUBMIT</button>
           </div>
         </div>
       </section>
-      <section class="container">
-        <button class="go-back-button buy-now" onclick="history.back()">
+      <section class="container-fluid fixed-bottom">
+        <button
+          class="go-back-button buy-now float-end"
+          onclick="history.back()"
+        >
           Go Back
         </button>
       </section>
