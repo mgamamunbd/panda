@@ -25,7 +25,9 @@ body {
 .carousel-item {
   padding: 20px 40px;
 }
-
+/* .carousel-button:hover {
+  background-color: #ffffff;
+} */
 .cat-1,
 .cat-2,
 .cat-3 {
