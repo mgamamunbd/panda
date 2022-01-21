@@ -76,29 +76,24 @@ body {
   border-top: none;
   align-self: flex-end;
 }
-
+/* search-Button start from here */
 .btn {
-  border: 2px solid gray;
+  border: 1px solid rgb(175, 32, 32);
   border-radius: 5px;
-  color: black;
+  color: gray;
 }
-.btn:hover {
-  border: 2px solid #ff136f;
+.search-button {
+  width: 43%;
+  margin: 0 auto;
+}
+.btn,
+.search-button:hover {
+  border: 1px solid #ff136f;
   border-radius: 5px;
   background-color: #ff136f;
   color: white;
 }
-.form-control {
-  border: 2px solid gray;
-  border-radius: 5px;
-  background-color: white;
-  color: black;
-}
-.form-control:hover {
-  border: 2px solid #ff136f;
-  border-radius: 5px;
-}
-
+/* Search-Button end here */
 #subscribe {
   height: 300px;
 }
