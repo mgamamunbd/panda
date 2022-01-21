@@ -64,6 +64,28 @@ body {
   align-self: flex-end;
 }
 
+.btn {
+  border: 2px solid gray;
+  border-radius: 5px;
+  color: black;
+}
+.btn:hover {
+  border: 2px solid #ff136f;
+  border-radius: 5px;
+  background-color: #ff136f;
+  color: white;
+}
+.form-control {
+  border: 2px solid gray;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+.form-control:hover {
+  border: 2px solid #ff136f;
+  border-radius: 5px;
+}
+
 #subscribe {
   height: 300px;
 }
