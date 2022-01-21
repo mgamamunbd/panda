@@ -3,8 +3,12 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-.container {
+.margin-extra {
   margin-bottom: 100px;
+  margin-top: 100px;
+}
+.navbar {
+  margin: 0 auto;
 }
 .orange-background {
   background-color: #fceae8;
@@ -105,7 +109,13 @@ footer {
   text-align: center;
 }
 .go-back-button {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 25px;
+  cursor: pointer;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: end;
+  text-decoration: none;
 }
