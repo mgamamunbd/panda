@@ -87,27 +87,6 @@
     </header>
     <!-- Navigation end here -->
     <main>
-      <section>
-        <div
-          class="toast"
-          role="alert"
-          aria-live="assertive"
-          aria-atomic="true"
-        >
-          <div class="toast-header">
-            <img src="..." class="rounded me-2" alt="..." />
-            <strong class="me-auto">Bootstrap</strong>
-            <small>11 mins ago</small>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="toast"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="toast-body">Hello, world! This is a toast message.</div>
-        </div>
-      </section>
       <!-- Carousel start from here -->
       <section class="container">
         <div
@@ -224,7 +203,7 @@
       <section>
         <div class="container product-categories">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-12 col-md-4 col-lg-4 py-2">
               <div
                 class="d-flex justify-content-between align-items-center cat-1"
               >
@@ -232,7 +211,7 @@
                 <img src="images/categories/watch.png" alt="" />
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-12 col-md-4 col-lg-4 py-2">
               <div
                 class="d-flex justify-content-between align-items-center cat-2"
               >
@@ -240,7 +219,7 @@
                 <img src="images/categories/bag.png" alt="" />
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-12 col-md-4 col-lg-4 p-2">
               <div
                 class="d-flex justify-content-between align-items-center cat-3"
               >
@@ -394,6 +373,11 @@
             <button class="buy-now">SUBMIT</button>
           </div>
         </div>
+      </section>
+      <section class="container">
+        <button class="go-back-button buy-now" onclick="history.back()">
+          Go Back
+        </button>
       </section>
       <footer>
         <small>

@@ -104,3 +104,8 @@ body {
 footer {
   text-align: center;
 }
+.go-back-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
