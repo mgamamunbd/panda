@@ -121,3 +121,7 @@ footer {
   justify-content: end;
   text-decoration: none;
 }
+.card-footer {
+  background-color: white;
+  border-top: none;
+}
