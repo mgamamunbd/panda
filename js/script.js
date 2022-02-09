@@ -1,3 +1,4 @@
 /** @format */
 
-console.log("Hello World!");
+// const shoes = document.getElementById("shoes");
+// shoes.style.color = "red";
